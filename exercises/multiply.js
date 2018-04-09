@@ -9,6 +9,16 @@
  */
 
 // Your code :
+const multiply = (elem1, elem2) => {
+    if (elem1 < 0){
+        elem1 = -elem1
+        elem2 = -elem2}
+    let total = 0
+    for (let i = 1; i <= elem1; i++){
+        total = total + elem2
+    }
+    return total
+}
 
 //* Begin of tests
 const assert = require('assert')
