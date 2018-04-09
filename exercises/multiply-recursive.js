@@ -11,21 +11,27 @@
 
 // Your code :
 const multiply = (elem1, elem2) => {
-    // if (elem1 < 0){
-    //     elem1 = -elem1
-    //     elem2 = -elem2
-    // }
-    // if (elem1 > 0) {
-    //     return elem2 + multiply(elem1 -1 ,elem2)
-    // }
-    // return 0
-
-    // return (elem1 > 0) ? elem2 + multiply(elem1 -1, elem2) : 0
-
     return elem2 && ((elem2 > 0)
         ? elem1 + multiply(elem1, elem2 - 1)
         : -multiply(elem1, -elem2))
 }
+
+/*
+const multiply = (elem1, elem2) => {
+    if (elem1 < 0){
+        elem1 = -elem1
+        elem2 = -elem2
+    }
+    if (elem1 > 0) {
+        return elem2 + multiply(elem1 -1 ,elem2)
+    }
+    return 0
+
+    return (elem1 > 0) ? elem2 + multiply(elem1 -1, elem2) : 0
+}
+*/
+
+
 //* Begin of tests
 const assert = require('assert')
 
