@@ -11,7 +11,6 @@ const id = (elem) => {
     return elem
 }
 
-id(patate)
 //* Begin of tests
 const assert = require('assert')
 
