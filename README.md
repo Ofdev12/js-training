@@ -80,7 +80,7 @@ And we also made you a currated list of all the most usefull methods :
   [ceil](https://devdocs.io/javascript/global_objects/math/ceil),
   [trunc](https://devdocs.io/javascript/global_objects/math/trunc),
   _[random](https://devdocs.io/javascript/global_objects/math/random),
-  [pow](exposant)(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
+  [pow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
 - String
   - Transform
     [slice](https://devdocs.io/javascript/global_objects/string/slice),
